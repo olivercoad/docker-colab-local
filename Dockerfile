@@ -14,8 +14,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:17.10
-MAINTAINER ikeyasu <ikeyasu@gmail.com>
+FROM ubuntu:18.04.1
+MAINTAINER oliver <oliver.coad@gmail.com>
 
 # Container configuration
 EXPOSE 8081
@@ -201,7 +201,7 @@ RUN /datalab/run.sh
 ENV HOME /content
 
 # Add Tini
-ENV TINI_VERSION v0.17.0
+ENV TINI_VERSION v0.18.0
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
 RUN chmod +x /tini
 ENTRYPOINT ["/tini", "--"]

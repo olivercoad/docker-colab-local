@@ -12,6 +12,16 @@ $ docker run --runtime=nvidia -it --rm -p 8081:8081 --cap-add SYS_ADMIN --device
 LICENSE
 =======
 
+Copyright 2019 olivercoad. All rights reserved.
+Licensed under the Apache License, Version 2.0.
+
+This repository is forked from
+https://github.com/googlecolab/backend-container/blob/bcbbf44/containers/Dockerfile
+
+The original license is as follows.
+
+```
+
 Copyright 2018 ikeyasu. All rights reserved.
 Licensed under the Apache License, Version 2.0.
 
@@ -34,4 +44,5 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
 ```
